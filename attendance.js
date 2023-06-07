@@ -19,7 +19,4 @@ function attendance(word) {
   console.log(attendance('Nasaktan'));    // Output: Present
   console.log(attendance('Nagmahal'));    // Output: Present
   console.log(attendance('NotPresent'));  // Output: Absent
-  console.log(attendance(' '));     // Output: Absent
-  console.log(attendance(' nasaktan '));    // Output: 
-  console.log(attendance('nagmahal'));    // Output: 
-  console.log(attendance('NotPresent'));  // Output:   
+  console.log(attendance(' '));           // Output: Absent
